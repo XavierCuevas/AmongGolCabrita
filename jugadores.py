@@ -12,7 +12,7 @@ JUGADORES_POPULARES = [
     #     🇪🇸 LALIGA (2024-25)
     # ==========================
     # Barcelona
-    "Pedri", "Gavi", "Lamine Yamal", "Frenkie de Jong", "Ronald Araújo",
+    "Pedri Barcelona", "Gavi", "Lamine Yamal", "Frenkie de Jong", "Ronald Araújo",
     "Ter Stegen", "Ferran Torres", "Raphinha", "João Félix", "Gündogan",
     "Inigo Martínez", "Koundé",
 
@@ -61,7 +61,7 @@ JUGADORES_POPULARES = [
     "Enzo Fernández", "Cole Palmer", "Reece James", "Sterling", "Moises Caicedo",
 
     # Tottenham
-    "Heung-min Son ", "Micky van de Ven", "Richarlison",
+     "Micky van de Ven", "Richarlison",
 
     # Newcastle
     "Isak", "Bruno Guimarães",
@@ -77,11 +77,11 @@ JUGADORES_POPULARES = [
     # ==========================
     #     🇩🇪 BUNDESLIGA
     # ==========================
-    "Jamal Musiala", "Thomas Müller", "Kimmich", "Neuer", "Sané",
+    "Jamal Musiala", "Thomas Müller", "Kimmich", "Neuer", "Leroy Sané",
     "Alphonso Davies", "Harry Kane", "Goretzka", "Michael Olise",
 
     # Leverkusen
-    "Florian Wirtz", "Alejandro Grimaldo", "Jeremi Frimpong",
+    "Florian Wirtz", "Alejandro Grimaldo", "Jeremy Frimpong",
 
     # ==========================
     #       🇫🇷 LIGUE 1
@@ -100,7 +100,7 @@ JUGADORES_POPULARES = [
 
     # Argentina campeona
     "Dibu Martínez", "Otamendi", "Ángel Di María", "Paredes",
-    "Cuti Romero", "Alexis Mac Allister", "De Paul",
+    "Cuti Romero", "Alexis Mac Allister", "Rodrigo De Paul",
 
     # Brasil
     "Rodrygo", "Raphinha", "Gabriel Jesus", "Casemiro",
@@ -117,7 +117,7 @@ JUGADORES_POPULARES = [
     "Rúben Dias", "João Cancelo",
 
     # Inglaterra
-    "Harry Kane", "Bellingham", "Rice", "Foden",
+    "Harry Kane", "Bellingham", "Foden",
 
     # Alemania
     "Kimmich", "Gündogan", "Ter Stegen", "Neuer",
@@ -136,3 +136,4 @@ JUGADORES_POPULARES = [
 
     # Y MUCHOS MÁS
 ]
+
