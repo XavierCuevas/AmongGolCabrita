@@ -1,92 +1,137 @@
+/* Reset */
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     position: relative;
 }
 
 body {
     background-color: #06060b;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+/* Contenedor principal */
 .Contenedor {
-    width: 500px;
+    width: 90%;            /* se adapta al ancho de pantalla */
+    max-width: 500px;      /* no crece demasiado en desktop */
     background-color: #36a2eb;
-    margin: 10px auto;
+    margin: 20px auto;
     border: 1px solid #232b47;
-    padding: 20px 0 30px 40px;
+    padding: 20px;
     border-radius: 10px;
+    text-align: center;
 }
 
+/* Título principal */
 .Titulo {
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     width: fit-content;
     color: #36a2eb;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 6vw;        /* tamaño relativo al ancho de pantalla */
     text-align: center;
 }
 
 .img {
-    width: 90px;
-    height: 70px;
+    width: 15vw;
+    max-width: 90px;
+    height: auto;
+    display: inline-block;
 }
 
+/* Encabezados dentro del contenedor */
 .Contenedor h1 {
-    font-family: 'Courier New', Courier, monospace;
     color: #102739;
-    font-size: 40px;
-    margin-left: 20px;
+    font-size: 5vw;
+    margin: 10px 0;
 }
 
+/* Párrafos */
 .Contenedor p {
-    font-family: 'Courier New', Courier, monospace;
     color: #22618b;
-    font-size: 20px;
-    margin-left: 70px;
-    margin-top: 20px;
+    font-size: 4vw;
+    margin: 10px 0 20px 0;
 }
 
+/* Input cantidad de jugadores */
 .jugadores {
-    width: 50%;
+    width: 80%;
+    max-width: 250px;
     padding: 10px;
-    margin: 30px 0 0 110px;
+    margin: 10px auto;
+    display: block;
     border-radius: 10px;
-    border-color: black;
+    border: 1px solid black;
     background-color: #36a2eb;
 }
 
+/* Botón iniciar */
 .Iniciar {
-    width: 180px;
+    width: 60%;
+    max-width: 200px;
     padding: 10px;
-    margin: 20px 0 0 150px;
+    margin: 10px auto;
+    display: block;
     background-color: #122f39;
-    border-color: black;
+    border: 1px solid black;
     border-radius: 10px;
     color: white;
+    cursor: pointer;
 }
 
+/* Rol del jugador */
 .Rol {
-    font-family: 'Courier New', Courier, monospace;
     color: black;
-    font-size: 20px;
-    margin-left: 180px;
-    margin-top: 33px;
-    width: 140px;
+    font-size: 4vw;
+    margin: 15px auto;
+    width: fit-content;
+    display: block;
+    text-align: center;
 }
 
+/* Botones mostrar/ocultar */
 .mostrarYocultar {
-    width: 50%;
+    width: 70%;
+    max-width: 180px;
     padding: 10px;
-    margin: 10px 0 0 120px;
+    margin: 10px auto;
+    display: block;
     border-radius: 10px;
-    border-color: black;
+    border: 1px solid black;
     background-color: #22618b;
     color: white;
+    cursor: pointer;
 }
 
+/* Imagen del jugador */
 #fotoJugador {
+    width: 80%;
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 12px;
+}
 
-    text-align: center;
-    margin: 10px 0 0 150px;
+/* Media query para pantallas muy pequeñas */
+@media (max-width: 400px) {
+    .Contenedor {
+        padding: 15px;
+    }
 
+    .Titulo {
+        font-size: 8vw;
+    }
 
+    .Contenedor h1 {
+        font-size: 6vw;
+    }
+
+    .Contenedor p {
+        font-size: 5vw;
+    }
+
+    .Rol {
+        font-size: 5vw;
+    }
 }
