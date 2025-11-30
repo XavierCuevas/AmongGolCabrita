@@ -35,7 +35,7 @@ JUGADORES_POPULARES = [
     "Mamardashvili", 
 
     # Betis
-    "Isco", "Fekir", "Anthony Matheus dos Santos", "Junior Firpo",
+    "Isco", "Fekir", "Anthony", "Junior Firpo",
 
     # ==========================
     #   🏴‍☠️ PREMIER LEAGUE
@@ -61,7 +61,7 @@ JUGADORES_POPULARES = [
     "Enzo Fernández", "Cole Palmer", "Reece James", "Sterling", "Moises Caicedo",
 
     # Tottenham
-    "Son Heung-min", "Micky van de Ven", "Richarlison",
+    "Heung-min Son ", "Micky van de Ven", "Richarlison",
 
     # Newcastle
     "Isak", "Bruno Guimarães",
