@@ -23,26 +23,26 @@ JUGADORES_POPULARES = [
 
     # Atlético de Madrid
     "Antoine Griezmann", "Álvaro Morata", "Memphis Depay",
-    "Koke", "Axel Witsel", "Nahuel Molina", "Jan Oblak",
+    "Koke", "Julian Alvarez", "Alexander Sorloth", "Jan Oblak",
 
     # Real Sociedad
-    "Takefusa Kubo", "Oyarzabal", "Brais Méndez",
+    "Takefusa Kubo", "Oyarzabal", 
 
     # Sevilla
-    "En-Nesyri", "Sergio Ramos", "Lamela",
+     "Sergio Ramos", "Alexis Sanchez",
 
     # Valencia
-    "Mamardashvili", "Gayà",
+    "Mamardashvili", 
 
     # Betis
-    "Isco", "Fekir", "Ayoze Pérez", "Guido Rodríguez",
+    "Isco", "Fekir", "Anthony Matheus dos Santos", "Junior Firpo",
 
     # ==========================
     #   🏴‍☠️ PREMIER LEAGUE
     # ==========================
     # Manchester City
     "Haaland", "Phil Foden", "Bernardo Silva", "John Stones", "Rúben Dias",
-    "Julián Álvarez", "Ederson",
+    "Kevin De bruyne", "Ederson",
 
     # Arsenal
     "Bukayo Saka", "Martin Ødegaard", "Gabriel Jesus", "Kai Havertz",
@@ -51,17 +51,17 @@ JUGADORES_POPULARES = [
     # Manchester United
     "Bruno Fernandes", "Marcus Rashford", "Casemiro",
     "Lisandro Martínez", "Antony", "Onana", "Mount",
-    "Garnacho",
+    "Garnacho" ,
 
     # Liverpool
     "Salah", "Luis Díaz", "Darwin Núñez", "Trent Alexander-Arnold",
     "Van Dijk", "Alisson", "Szoboszlai",
 
     # Chelsea
-    "Enzo Fernández", "Mudryk", "Reece James", "Sterling", "Nkunku",
+    "Enzo Fernández", "Cole Palmer", "Reece James", "Sterling", "Moises Caicedo",
 
     # Tottenham
-    "Son Heung-min", "Kulusevski", "Richarlison",
+    "Son Heung-min", "Micky van de Ven", "Richarlison",
 
     # Newcastle
     "Isak", "Bruno Guimarães",
@@ -70,24 +70,24 @@ JUGADORES_POPULARES = [
     #        🇮🇹 SERIE A
     # ==========================
     "Lautaro Martínez", "Hakan Çalhanoğlu", "Barella", "Dybala", "Chiesa",
-    "Locatelli", "Danilo", "Theo Hernández", "Maignan",
+    "Locatelli", "Luka Modric", "Theo Hernández", "Maignan",
     "Rafael Leão", "Giroud", "Tonali", "Bastoni",
-    "Osimhen", "Di Lorenzo", "Kvaratskhelia",
+    "Osimhen", "Kenan Yildiz", "Kvaratskhelia",
 
     # ==========================
     #     🇩🇪 BUNDESLIGA
     # ==========================
     "Jamal Musiala", "Thomas Müller", "Kimmich", "Neuer", "Sané",
-    "Alphonso Davies", "Harry Kane", "Goretzka",
+    "Alphonso Davies", "Harry Kane", "Goretzka", "Michael Olise",
 
     # Leverkusen
-    "Florian Wirtz", "Piero Hincapié", "Xhaka",
+    "Florian Wirtz", "Alejandro Grimaldo", "Jeremi Frimpong",
 
     # ==========================
     #       🇫🇷 LIGUE 1
     # ==========================
     "Dembélé", "Zaïre-Emery", "Hakimi", "Kolo Muani",
-    "Barcola", "Marquinhos", "Donnarumma",
+    "Barcola", "Marquinhos", "Donnarumma" "Vitinha",
 
     # ==========================
     #   🇺🇸 MLS y OTROS TOP
@@ -107,10 +107,10 @@ JUGADORES_POPULARES = [
     "Marquinhos", "Alisson", "Vinícius Jr",
 
     # Francia
-    "Mbappé", "Griezmann", "Tchouaméni", "Upamecano",
+    "Mbappé", "Griezmann", "Tchouaméni", "Ngolo Kante",
 
     # España
-    "Carvajal", "Nacho", "Yamal", "Pedri", "Gavi",
+    "Carvajal", "Pau Cubarsi", "Yamal", "Pedri", "Gavi" "Mikel Merino",
 
     # Portugal
     "Bruno Fernandes", "João Félix", "Bernardo Silva",
@@ -126,13 +126,13 @@ JUGADORES_POPULARES = [
     #    ⚡ CRACKS JÓVENES
     # ==========================
     "Endrick", "Arda Güler", "Roony Bardghji", "Lamine Yamal",
-    "Fermin", "Savinho", "Bellingham", "Garnacho",
+    "Fermin", "Savinho", "Bellingham", "Garnacho" ,
 
     # ==========================
     #      EXTRA POPULARES
     # ==========================
-    "Nico Williams", "Iñaki Williams", "Yeremy Pino",
-    "Zubimendi", "Guedes", "Lozano", "Ochoa", "Ibrahimović", "James Rodríguez",
+    "Nico Williams", "Iñaki Williams", "Federico Valverde",
+    "Zubimendi", "Marcus Rashford", "Alvaro Carreras", "Ochoa", "Ibrahimović", "James Rodríguez",
 
     # Y MUCHOS MÁS
 ]
