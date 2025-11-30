@@ -69,9 +69,9 @@ JUGADORES_POPULARES = [
     # ==========================
     #        🇮🇹 SERIE A
     # ==========================
-    "Lautaro Martínez", "Hakan Çalhanoğlu", "Barella", "Dybala", "Chiesa",
-    "Locatelli", "Luka Modric", "Theo Hernández", "Maignan",
-    "Rafael Leão", "Giroud", "Tonali", "Bastoni",
+    "Lautaro Martínez", "Hakan Çalhanoğlu", "Barella", "Dybala", "Federico Chiesa",
+    "Jan Sommer", "Luka Modric", "Theo Hernández", "Maignan",
+    "Rafael Leão", "Olivier Giroud", "Tonali", "Bastoni",
     "Osimhen", "Kenan Yildiz", "Kvaratskhelia",
 
     # ==========================
@@ -136,5 +136,6 @@ JUGADORES_POPULARES = [
 
     # Y MUCHOS MÁS
 ]
+
 
 
