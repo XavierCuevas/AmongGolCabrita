@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de Impostor</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='juego.css') }}">
+</head>
+<body>
+    
+    <h1 class="Titulo">
+        <img src="{{ url_for('static', filename='pelota1-removebg-preview.png') }}" class="img">
+        Among Gol
+    </h1>
+
+    <div class="Contenedor">
+    
+        <h1><strong>Generador de roles</strong></h1>
+        <p>Elije la cantidad de personas</p>
+
+        <input type="number" min="3" max="6" class="jugadores" id="cantidad"> 
+        <button onclick="Iniciar()" class="Iniciar">Iniciar juego</button>
+
+        <div class="rol" style="margin-top:20px;">
+
+            <h2 id="rol" class="Rol" style="display:none;"></h2>
+
+            <img id="fotoJugador" src="" width="220" style="border-radius: 12px; display:none;">
+
+            <button onclick="verRol()" id="btnVer" style="display:none;" class="mostrarYocultar">Mostrar</button>
+            <button onclick="ocultarRol()" id="btnOcultar" style="display:none;" class="mostrarYocultar">Ocultar</button>
+
+        </div>
+
+    </div>
+
+<script>
+
+    let roles = [];    
+    let index = 0;
+
+    async function Iniciar() {
+        const cantidad = document.getElementById("cantidad").value;
+
+        const res = await fetch(`/roles/${cantidad}`);
+        roles = await res.json();
+
+        index = 0;
+
+        document.getElementById("btnVer").style.display = "inline-block";
+        document.getElementById("btnOcultar").style.display = "none";
+
+        alert("Roles cargados. Pasa el primer jugador!");
+    }
+
+    async function verRol() {
+
+        if (index >= roles.length) {
+            alert("Todos vieron su rol!");
+            return;
+        }
+
+        const nombre = roles[index];
+        const rolTexto = document.getElementById("rol");
+        const imgTag = document.getElementById("fotoJugador");
+
+        rolTexto.innerText = (nombre === "IMPOSTOR") ? "IMPOSTOR 👿" : nombre;
+        rolTexto.style.display = "block";
+
+        // Mostrar imagen
+        imgTag.style.display = "block";
+
+        if (nombre === "IMPOSTOR") {
+            imgTag.src = "";
+        } 
+        else {
+            try {
+                const url = `https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${encodeURIComponent(nombre)}`;
+                const api = await fetch(url).then(r => r.json());
+
+                if (api.player && api.player[0] && api.player[0].strCutout) {
+                    imgTag.src = api.player[0].strCutout;
+                } else {
+                    imgTag.src = "https://via.placeholder.com/220?text=Sin+Foto";
+                }
+            } catch {
+                imgTag.src = "https://via.placeholder.com/220?text=Error";
+            }
+        }
+
+        document.getElementById("btnVer").style.display = "none";
+        document.getElementById("btnOcultar").style.display = "inline-block";
+    }
+
+    function ocultarRol() {
+        document.getElementById("rol").style.display = "none";
+        document.getElementById("fotoJugador").style.display = "none";
+
+        index++;
+
+        document.getElementById("btnVer").style.display = "inline-block";
+        document.getElementById("btnOcultar").style.display = "none";
+    }
+
+</script>
+
+</body>
+</html>

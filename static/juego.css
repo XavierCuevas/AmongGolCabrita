@@ -1,0 +1,92 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+}
+
+body {
+    background-color: #06060b;
+}
+
+.Contenedor {
+    width: 500px;
+    background-color: #36a2eb;
+    margin: 10px auto;
+    border: 1px solid #232b47;
+    padding: 20px 0 30px 40px;
+    border-radius: 10px;
+}
+
+.Titulo {
+    margin: 0 auto;
+    width: fit-content;
+    color: #36a2eb;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.img {
+    width: 90px;
+    height: 70px;
+}
+
+.Contenedor h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #102739;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.Contenedor p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #22618b;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.jugadores {
+    width: 50%;
+    padding: 10px;
+    margin: 30px 0 0 110px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #36a2eb;
+}
+
+.Iniciar {
+    width: 180px;
+    padding: 10px;
+    margin: 20px 0 0 150px;
+    background-color: #122f39;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+.Rol {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 33px;
+    width: 140px;
+}
+
+.mostrarYocultar {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0 0 120px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #22618b;
+    color: white;
+}
+
+#fotoJugador {
+
+    text-align: center;
+    margin: 10px 0 0 150px;
+
+
+}
