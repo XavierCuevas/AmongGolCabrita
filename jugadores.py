@@ -35,7 +35,7 @@ JUGADORES_POPULARES = [
     "Mamardashvili", 
 
     # Betis
-    "Isco", "Fekir", "Anthony", "Junior Firpo",
+    "Isco", "Fekir", "Anthony Betis", "Junior Firpo",
 
     # ==========================
     #   🏴‍☠️ PREMIER LEAGUE
@@ -50,7 +50,7 @@ JUGADORES_POPULARES = [
 
     # Manchester United
     "Bruno Fernandes", "Marcus Rashford", "Casemiro",
-    "Lisandro Martínez", "Antony", "Onana", "Mount",
+    "Lisandro Martínez", "Anthony Betis", "Onana", "Mount",
     "Garnacho" ,
 
     # Liverpool
@@ -58,7 +58,7 @@ JUGADORES_POPULARES = [
     "Van Dijk", "Alisson", "Szoboszlai",
 
     # Chelsea
-    "Enzo Fernández", "Cole Palmer", "Reece James", "Sterling", "Moises Caicedo",
+    "Enzo Fernández", "Cole Palmer", "Reece James Chealsea", "Sterling", "Moises Caicedo",
 
     # Tottenham
      "Micky van de Ven", "Richarlison",
@@ -87,24 +87,24 @@ JUGADORES_POPULARES = [
     #       🇫🇷 LIGUE 1
     # ==========================
     "Dembélé", "Zaïre-Emery", "Hakimi", "Kolo Muani",
-    "Barcola", "Marquinhos", "Donnarumma" "Vitinha",
+    "Barcola", "Marquinhos", "Donnarumma", "Vitinha",
 
     # ==========================
     #   🇺🇸 MLS y OTROS TOP
     # ==========================
-    "Messi", "Suárez", "Busquets", "Jordi Alba",
+    "Messi", "Luis Suárez", "Sergio Busquets", "Jordi Alba",
 
     # ==========================
     #      🌍 SELECCIONES
     # ==========================
 
     # Argentina campeona
-    "Dibu Martínez", "Otamendi", "Ángel Di María", "Paredes",
+    "Dibu Martínez", "Nicolas Otamendi", "Ángel Di María", "Leandro Paredes",
     "Cuti Romero", "Alexis Mac Allister", "Rodrigo De Paul",
 
     # Brasil
     "Rodrygo", "Raphinha", "Gabriel Jesus", "Casemiro",
-    "Marquinhos", "Alisson", "Vinícius Jr",
+    "Marquinhos", "Alisson", "Vinícius Jr ReaL Madrid",
 
     # Francia
     "Mbappé", "Griezmann", "Tchouaméni", "Ngolo Kante",
@@ -126,7 +126,7 @@ JUGADORES_POPULARES = [
     #    ⚡ CRACKS JÓVENES
     # ==========================
     "Endrick", "Arda Güler", "Roony Bardghji", "Lamine Yamal",
-    "Fermin", "Savinho", "Bellingham", "Garnacho" ,
+    "Fermin Lopez", "Savinho", "Bellingham", "Garnacho" ,
 
     # ==========================
     #      EXTRA POPULARES
@@ -136,4 +136,5 @@ JUGADORES_POPULARES = [
 
     # Y MUCHOS MÁS
 ]
+
 
