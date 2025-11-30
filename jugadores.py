@@ -19,7 +19,7 @@ JUGADORES_POPULARES = [
     # Real Madrid
     "Courtois", "Militão", "Nacho", "David Alaba", "Carvajal",
     "Rodrygo", "Endrick", "Tchouaméni", "Camavinga",
-    "Brahim Díaz",
+    "Brahim Díaz Real Madrid", "Raul Asencio Re",
 
     # Atlético de Madrid
     "Antoine Griezmann", "Álvaro Morata", "Memphis Depay",
@@ -70,9 +70,9 @@ JUGADORES_POPULARES = [
     #        🇮🇹 SERIE A
     # ==========================
     "Lautaro Martínez", "Hakan Çalhanoğlu", "Barella", "Dybala", "Federico Chiesa",
-    "Jan Sommer", "Luka Modric", "Theo Hernández", "Maignan",
+    "Yann Sommer", "Luka Modric", "Theo Hernández", "Maignan",
     "Rafael Leão", "Olivier Giroud", "Tonali", "Bastoni",
-    "Osimhen", "Kenan Yildiz", "Kvaratskhelia",
+    "Osimhen", "Kenan Yildiz Juventus", "Kvaratskhelia",
 
     # ==========================
     #     🇩🇪 BUNDESLIGA
@@ -110,7 +110,7 @@ JUGADORES_POPULARES = [
     "Mbappé", "Griezmann", "Tchouaméni", "Ngolo Kante",
 
     # España
-    "Carvajal", "Pau Cubarsi", "Yamal", "Pedri", "Gavi" "Mikel Merino",
+    "Carvajal", "Pau Cubarsi", "Yamal", "Pedri Barcelona", "Gavi Barcelona", "Mikel Merino",
 
     # Portugal
     "Bruno Fernandes", "João Félix", "Bernardo Silva",
@@ -136,6 +136,7 @@ JUGADORES_POPULARES = [
 
     # Y MUCHOS MÁS
 ]
+
 
 
 
